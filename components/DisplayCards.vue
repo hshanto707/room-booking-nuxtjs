@@ -1,17 +1,27 @@
 <template>
-  <v-app>
-    <h1>{{title}}</h1>
-  </v-app>
+  <div class="mb-6">
+    <h1>{{ cardSection.title}}</h1>
+    <p>{{ cardSection.snippet }}</p>
+    <div class="cards-container">
+      <Card
+        v-for="card in cardSection.cards"
+        :key="card.id"
+        :card="card"
+      />
+    </div>
+  </div>
 </template>
 
 <script>
   export default {
-    props: {
-      title: title
-    }
+    props: ['cardSection']
   }
 </script>
 
 <style lang="scss" scoped>
-
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
 </style>

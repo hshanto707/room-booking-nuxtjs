@@ -1,13 +1,21 @@
 <template>
-  <v-app>
+  <div>
     <Hero />
-    <DisplayCards :title="dhaka" />
-  </v-app>
+    <DisplayCards
+      v-for="cardInfo in cardInfos"
+      :key="cardInfo.id"
+      :cardSection="cardInfo"
+    />
+  </div>
 </template>
 
 <script>
-import DisplayCards from '../components/DisplayCards.vue'
-export default {
-  components: { DisplayCards },
-}
+  import { CardSections } from "@/assets/data.js"
+  export default {
+    data() {
+      return {
+        cardInfos: CardSections
+      }
+    }
+  }
 </script>

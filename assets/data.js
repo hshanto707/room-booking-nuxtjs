@@ -1,4 +1,4 @@
-export const largeCardSections = [
+export const CardSections = [
   {
     id: 1,
     title: "Top-rated Rooms In Cox's Bazar",
@@ -6,7 +6,7 @@ export const largeCardSections = [
     cards: [
       {
         id: 11,
-        title: "Entire serviced apartment hosted by Sheikh",
+        title: "Entire serviced apartment hosted",
         snippet: "“Hotel Delower Paradise” is a Luxury Family Hotel managed by “The Significant Ltd.” Situated at Hotel Motel Zone, Kalatoli Road Sugondha point block -A, Cox’s Bazar. It is very close to the world’s longest sea-beach.",
         image: "https://a0.muscache.com/im/pictures/dc1edcb0-f38e-4bef-91f1-dcc6bfdf87f8.jpg?im_w=1200"
       },
@@ -18,7 +18,7 @@ export const largeCardSections = [
       },
       {
         id: 13,
-        title: "Private room in serviced apartment hosted by JatraRooms",
+        title: "Private room in serviced apartment",
         snippet: "This is a fully furnished luxurious room with a chic contemporary flair. The room houses one queen size bed and an attached bathroom. The room comes with a Complimentary Breakfast, WiFi, Safety locker, Smart TV Service.",
         image: "https://a0.muscache.com/im/pictures/9a93559f-d0e4-4455-9710-7c176d2df0d7.jpg?im_w=1200"
       }
@@ -38,12 +38,12 @@ export const largeCardSections = [
       {
         id: 22,
         title: "Entire rental unit hosted by Kevin",
-        snippet: "SUNSET PENTHOUSE, beautifully designed to cater your perfect stay in Bangkok. 150 sqm, 2 bedroom, 3 bathroom, spacious, well-lit is your best choice to stay in Bangkok. seven eleven and lotus express within 5 minute walk of the brand new apartment building.",
+        snippet: "Sunset Penthouse, beautifully designed to cater your perfect stay in Bangkok. 150 sqm, 2 bedroom, 3 bathroom, spacious, well-lit is your best choice to stay in Bangkok. seven eleven and lotus express within 5 minute walk of the brand new apartment building.",
         image: "https://a0.muscache.com/im/pictures/255296be-782c-46fe-af1e-377e393760ad.jpg?im_w=1200"
       },
       {
         id: 23,
-        title: "Entire condominium (condo) hosted by Yefeng",
+        title: "Entire condominium hosted by Yefeng",
         snippet: "The room is located in a very good location since all you may need for Bangkok living, just one step away from here. The popular place near BTS Asoke Station & MRT Sukhumvit Station, Korean Town, Lavana Spa & Massage are all within 5-10 mins walking distance.",
         image: "https://a0.muscache.com/im/pictures/miso/Hosting-48138317/original/bf086ecd-9fe6-4265-9dd6-cfc7babdf470.jpeg?im_w=1200"
       }

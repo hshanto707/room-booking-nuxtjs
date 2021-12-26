@@ -1,5 +1,5 @@
 <template>
-  <v-app class="container">
+  <div class="container mb-12">
     <div class="hero">
       <div class="hero-info">
         <h1 class="header">Find The Best Comfortable Room In The City</h1>
@@ -18,7 +18,7 @@
         />
       </div>
     </div>
-  </v-app>
+  </div>
 </template>
 
 <script>
