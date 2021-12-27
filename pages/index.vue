@@ -5,6 +5,7 @@
       v-for="cardInfo in cardInfos"
       :key="cardInfo.id"
       :cardSection="cardInfo"
+      id="all-rooms"
     />
   </div>
 </template>

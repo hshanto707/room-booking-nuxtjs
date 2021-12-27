@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-6">
+  <div class="mb-12">
     <h1>{{ cardSection.title}}</h1>
     <p>{{ cardSection.snippet }}</p>
     <div class="cards-container">

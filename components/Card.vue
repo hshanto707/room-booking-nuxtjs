@@ -1,9 +1,9 @@
 <template>
-  <div class="card">
+  <NuxtLink :to="`/rooms/${card.id}`" class="card">
     <img :src="card.image" alt="">
     <h3>{{ card.title }}</h3>
     <p>{{ card.snippet.slice(0, 100) }}...</p>
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
@@ -21,7 +21,7 @@
     padding: 10px;
     border: 2px solid white;
     border-radius: 0.5rem;
-    cursor: pointer;
+    text-decoration: none;
     transition: 0.5s;
 
     img {
@@ -32,6 +32,7 @@
     h3 {
       font-size: 1.15rem;
       margin-top: 0.4rem;
+      color: #212121
     }
     p {
       color: grey;

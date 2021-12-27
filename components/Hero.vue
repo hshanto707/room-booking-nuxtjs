@@ -1,7 +1,7 @@
 <template>
   <div class="container mb-12">
     <div class="hero">
-      <div class="hero-info">
+      <div class="my-auto">
         <h1 class="header">Find The Best Comfortable Room In The City</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -9,7 +9,7 @@
           fuga, consectetur quisquam. Reprehenderit illum rerum eius blanditiis?
           Dicta temporibus repellat nulla.
         </p>
-        <v-btn color="primary">Explore Rooms</v-btn>
+        <v-btn @click="scroll" color="primary">Explore Rooms</v-btn>
       </div>
       <div>
         <img
@@ -22,7 +22,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scroll() {
+      const element = document.getElementById("all-rooms");
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -30,13 +37,9 @@ export default {};
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  .hero-info {
-    margin: auto 0;
-
-    h1 {
-      font-size: 40px;
-      font-weight: 900;
-    }
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
   }
 
   img {
