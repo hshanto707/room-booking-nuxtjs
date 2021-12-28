@@ -1,5 +1,6 @@
 <template>
   <div>
+  {{dates}}
       <v-date-picker
         v-model="dates"
         multiple
@@ -11,7 +12,6 @@
   export default {
     data: () => ({
       dates: [],
-      menu: false,
     }),
   }
 </script>

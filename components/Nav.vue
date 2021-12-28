@@ -1,8 +1,8 @@
 <template>
-  <div color="red" class="d-flex justify-space-between">
+  <div color="red" class="d-flex justify-space-between align-center">
     <NuxtLink to="/" class="logo">Find Room</NuxtLink>
     <NuxtLink to="/my-bookings" class="my-bookings">My Bookings</NuxtLink>
-    <hr />
+
   </div>
 </template>
 
